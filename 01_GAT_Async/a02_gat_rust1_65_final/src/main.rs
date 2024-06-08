@@ -18,6 +18,7 @@ trait LendingIterator {
         P: FnMut(&Self::Item<'a>) -> bool;
 }
 
+#[derive(Debug)]
 pub struct WindowsMut<'x, T> {
     slice: &'x mut [T],
 }
@@ -42,19 +43,20 @@ impl<'x, T: std::fmt::Debug> LendingIterator for WindowsMut<'x, T, T: std::fmt::
     }
 }
 
-fn print_items<I>(iter: I)
-where
-    I: for<'a> LendingIterator<Item<'a> = &'a mut [usize]>,
-    for<'a> I::Item<'a>: Debug,
-{
-    iter.for_each(|item| {
-        println!("{:?}", item);
-    });
-}
+// fn print_items<I>(iter: I)
+// where
+//     I: for<'a> LendingIterator<Item<'a> = &'a mut [usize]>,
+//     for<'a> I::Item<'a>: Debug,
+// {
+//     iter.for_each(|item| {
+//         println!("{:?}", item);
+//     });
+// }
 
 fn main() {
     let mut array = [0; 16];
     let slice = &mut array.clone();
     let windows = WindowsMut { slice };
-    print_items::<WindowsMut<usize>>(windows);
+    // print_items::<WindowsMut<usize>>(windows);
+    println!("print : {:?}", windows);
 }
