@@ -16,6 +16,10 @@ https://blog.cro.sh/slides/async-rust-programming-20220801-redistributable.pdf
 
 - https://doc.rust-lang.org/std/future/trait.Future.html
 
+# I/O Multiplexing(select, poll, epoll, kqueue)
+
+- I/O Multiplexing(select, poll, epoll, kqueue)
+  - https://www.mimul.com/blog/io-multiplexing/
 
 # 최신 러스트 소식
 - Announcing `async fn` and return-position `impl Trait` in traits
