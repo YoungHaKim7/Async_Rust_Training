@@ -5,10 +5,19 @@
 https://blog.cro.sh/slides/async-rust-programming-20220801-redistributable.pdf
 
 # Async Book(Rust)
-  - https://rust-lang.github.io/async-book/
-  - tokio-async
-    - https://docs.rs/tokio-async-std/latest/async_std/
-    - https://book.async.rs/
+- https://rust-lang.github.io/async-book/
+- tokio-async
+  - https://docs.rs/tokio-async-std/latest/async_std/
+  - https://book.async.rs/
+
+<hr>
+
+- References
+  - https://developer.ibm.com/articles/l-async/
+  - http://www.kegel.com/c10k.html
+  - https://smallcultfollowing.com/babysteps/blog/2019/10/26/async-fn-in-traits-are-hard/
+  - https://aturon.github.io/blog/2016/08/11/futures/
+
 
 <hr>
 
