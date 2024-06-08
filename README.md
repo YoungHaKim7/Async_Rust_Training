@@ -9,6 +9,8 @@ https://blog.cro.sh/slides/async-rust-programming-20220801-redistributable.pdf
 - tokio-async
   - https://docs.rs/tokio-async-std/latest/async_std/
   - https://book.async.rs/
+- rust-lang 공식(nightly) eBook
+  - https://doc.rust-lang.org/nightly/
 
 <hr>
 
