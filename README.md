@@ -23,6 +23,10 @@ https://blog.cro.sh/slides/async-rust-programming-20220801-redistributable.pdf
 
 <hr>
 
+# Rust2024에 대해 앞으로의 업데이트 방향
+- 여기에 계속 정리중..
+  - https://github.com/YoungHaKim7/rust_release/tree/main/999_Rust2024_edition
+
 # Future
 
 - https://doc.rust-lang.org/std/future/trait.Future.html
