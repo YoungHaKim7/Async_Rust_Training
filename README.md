@@ -39,3 +39,6 @@ https://blog.cro.sh/slides/async-rust-programming-20220801-redistributable.pdf
 # 최신 러스트 소식
 - Announcing `async fn` and return-position `impl Trait` in traits
   - https://blog.rust-lang.org/2023/12/21/async-fn-rpit-in-traits.html
+
+# etc..  
+- https://github.com/rust-lang/rust/issues/89122
