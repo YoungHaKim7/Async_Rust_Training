@@ -1,0 +1,6 @@
+[package]
+name = "a02_gat_rust1_65_final"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
