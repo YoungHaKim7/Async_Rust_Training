@@ -4,6 +4,13 @@
 
 https://blog.cro.sh/slides/async-rust-programming-20220801-redistributable.pdf
 
+# Async Book(Rust)
+  - https://rust-lang.github.io/async-book/
+  - tokio-async
+    - https://docs.rs/tokio-async-std/latest/async_std/
+    - https://book.async.rs/
+
+<hr>
 
 # Future
 
