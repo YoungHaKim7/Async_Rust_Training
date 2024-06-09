@@ -12,6 +12,6 @@ async fn main() {
 
     match fetch_data(url).await {
         Ok(data) => println!("Received data: {:?}", data),
-        Err(e) => println!("An error occurred: {}", e),
+        Err(e) => eprintln!("An error occurred: {}", e),
     }
 }
