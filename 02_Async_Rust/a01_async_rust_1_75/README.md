@@ -1,0 +1,19 @@
+# Result
+
+```bash
+
+Hello, world! async trait
+Rendering fullscreen...
+Rendered fullscreen.
+Reminding user to join mailing list...
+Reminded user to join mailing list.
+Reminding user to join mailing list...
+Reminded user to join mailing list.
+Reminding user to join mailing list...
+Reminded user to join mailing list.
+Reminding user to join mailing list...
+Reminded user to join mailing list.
+Hiding modal for now...
+Modal hidden for now.
+```
+
