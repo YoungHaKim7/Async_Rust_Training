@@ -1,0 +1,8 @@
+[package]
+name = "a02_tokio_example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+reqwest = "0.12.4"
+tokio = { version = "1.38.0", features = ["full"] }
