@@ -1,3 +1,8 @@
+# link
+
+
+<hr>
+
 # Async_Rust_Training
 
 - Async Rust한국분이 설명 잘 해 놨음.
@@ -42,3 +47,10 @@ https://blog.cro.sh/slides/async-rust-programming-20220801-redistributable.pdf
 
 # etc..  
 - https://github.com/rust-lang/rust/issues/89122
+
+<hr>
+
+# C언어 러스트 이해하기
+
+# Async Engine in C | Tsoding Daily[|🔝|](#link)
+- https://youtu.be/Q65zhKkynDk?si=PwBb8vxXZwZDIQEl
