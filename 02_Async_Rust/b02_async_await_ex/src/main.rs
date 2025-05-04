@@ -1,6 +1,8 @@
 // Cargo dependency:
 // tokio = { version = "1.37.0", features = ["macros", "rt-multi-thread"] }
 
+use tokio::time::{Duration, sleep};
+
 #[tokio::main(flavor = "multi_thread", worker_threads = 10)]
 async fn main() {
     let handle = tokio::runtime::Handle::current();
@@ -15,15 +17,17 @@ async fn main() {
         let handle = tokio::runtime::Handle::current();
         let task2 = handle.spawn(async {
             println!("Task 2: start {}", ct_id());
-            std::thread::sleep(std::time::Duration::from_secs(3));
+            sleep(Duration::from_secs(1)).await;
             println!("Task 2: end {}", ct_id());
         });
-        std::thread::sleep(std::time::Duration::from_secs(4));
+        sleep(Duration::from_secs(2)).await;
         println!("Task 1: sleeped {}", ct_id());
         task2.await.unwrap();
         println!("Task 1: end {}", ct_id());
     });
-    std::thread::sleep(std::time::Duration::from_secs(5));
+
+    sleep(Duration::from_secs(3)).await;
+
     println!("Main: sleeped {}", ct_id());
     task1.await.unwrap();
     println!("Main: end {}", ct_id());
