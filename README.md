@@ -31,6 +31,10 @@ https://blog.cro.sh/slides/async-rust-programming-20220801-redistributable.pdf
 
 <hr>
 
+# (221220)Profiling Code in Rust - by Vitaly Bragilevsky - Rust Linz, December 2022 | Rust
+- https://youtu.be/JRMOIE_wAFk?si=Ngl2T0FWl74H8v_5
+
+
 # Rust2024에 대해 앞으로의 업데이트 방향
 - 여기에 계속 정리중..
   - https://github.com/YoungHaKim7/rust_release/tree/main/999_Rust2024_edition
