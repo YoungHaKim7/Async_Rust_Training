@@ -3,6 +3,9 @@
 
 <hr>
 
+# 잘 정리된 외국글
+- https://natkr.com/2025-04-10-async-from-scratch-1/
+
 # Async_Rust_Training
 
 - Async Rust한국분이 설명 잘 해 놨음.
