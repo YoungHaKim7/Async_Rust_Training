@@ -1,0 +1,6 @@
+[package]
+name = "b01_java_convert_rust_code_mpsc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
