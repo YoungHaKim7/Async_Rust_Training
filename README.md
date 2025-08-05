@@ -38,7 +38,7 @@ https://blog.cro.sh/slides/async-rust-programming-20220801-redistributable.pdf
 
 # Rust2024에 대해 앞으로의 업데이트 방향
 - 여기에 계속 정리중..
-  - https://github.com/YoungHaKim7/rust_release/tree/main/999_Rust2024_edition
+  - [The_Rust_Edition_Guide_2015_2024(rust_release 정리한 Github)](https://github.com/YoungHaKim7/rust_release/tree/main/999_The_Rust_Edition_Guide_2015_2024)
 
 # Future
 
